@@ -1,0 +1,23 @@
+Install/required tools
+pip install grpcio
+pip install grpcio-tools
+
+Compile/recompile example.proto
+python -m grpc_tools.protoc -I./protos --python_out=. --grpc_python_out=. ./protos/example.proto
+
+Running the Branch
+python Branch.py -i input.json
+
+Running the Customer
+python customer.py -i input.json -o output.json
+
+References:
+https://github.com/grpc/grpc/blob/801c2fd832ec964d04a847c6542198db093ff81d/examples/python/multiprocessing/server.py
+
+https://github.com/Sean-Bradley/Seans-gRPC
+
+https://fanchenbao.medium.com/python3-logging-with-multiprocessing-f51f460b8778
+
+https://www.youtube.com/watch?v=dQK0VLahrDk
+
+https://github.com/vladimir-dejanovic/grpc-bank-example/blob/master/src/main/proto/bank.proto

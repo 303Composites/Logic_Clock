@@ -1,0 +1,48 @@
+//to recompile this proto run
+//python -m grpc_tools.protoc -I./protos --python_out=. --grpc_python_out=. ./protos/example.proto
+
+syntax = "proto3";
+
+service RPC {
+    rpc GetEvents(EventsRequest) returns (EventsResponse) {}
+    rpc MsgDelivery(MsgDeliveryRequest) returns (MsgDeliveryResponse) {}
+}
+
+enum Interface {
+    Query = 0;
+    Deposit = 1;
+    Withdraw = 2;
+}
+
+enum Result {
+  Transaction_Successful = 0;
+  Transaction_Failed = 1;
+}
+message EventsRequest {}
+
+message EventsResponse {
+  repeated Event events = 1;
+}
+
+message Event {
+  int32 id_ = 1;
+  string name = 2;
+  int32 clock = 3;
+}
+
+//Request enumerators
+message MsgDeliveryRequest {
+  int32 id_ = 1;
+  Interface interface = 2;
+  int32 money = 3;
+  int32 dest = 4;
+  int32 tick = 5;
+}
+//Response enumerators
+message MsgDeliveryResponse{
+  int32 id_ = 1;
+  Result result = 2;
+  int32 money = 3;
+  int32 tick = 4;
+}
+

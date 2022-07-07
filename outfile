@@ -1,0 +1,41 @@
+[PID 7796 2021-04-16 19:28:08,646] Customer 1
+[PID 7796 2021-04-16 19:28:08,662] Event 1, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 2
+[PID 7796 2021-04-16 19:28:08,663] Event 2, deposit, 170
+[PID 7796 2021-04-16 19:28:08,663] Event 3, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 3
+[PID 7796 2021-04-16 19:28:08,663] Event 4, withdraw, 70
+[PID 7796 2021-04-16 19:28:08,663] Event 5, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 4
+[PID 7796 2021-04-16 19:28:08,663] Event 6, deposit, 50
+[PID 7796 2021-04-16 19:28:08,663] Event 7, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 5
+[PID 7796 2021-04-16 19:28:08,663] Event 8, deposit, 150
+[PID 7796 2021-04-16 19:28:08,663] Event 9, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 6
+[PID 7796 2021-04-16 19:28:08,663] Event 10, withdraw, 80
+[PID 7796 2021-04-16 19:28:08,663] Event 11, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 7
+[PID 7796 2021-04-16 19:28:08,663] Event 12, deposit, 300
+[PID 7796 2021-04-16 19:28:08,663] Event 13, withdraw, 20
+[PID 7796 2021-04-16 19:28:08,663] Event 14, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 8
+[PID 7796 2021-04-16 19:28:08,663] Event 15, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 9
+[PID 7796 2021-04-16 19:28:08,663] Event 16, withdraw, 440
+[PID 7796 2021-04-16 19:28:08,663] Event 17, query, 400
+[PID 7796 2021-04-16 19:28:08,663] Customer 10
+[PID 7796 2021-04-16 19:28:08,663] Event 18, withdraw, 20
+[PID 7796 2021-04-16 19:28:08,663] Event 19, query, 400
+[PID 9584 2021-04-16 19:28:09,102] Initializing customer stub 3 to branch stub at localhost:3003
+[PID 18816 2021-04-16 19:28:09,116] Initializing customer stub 1 to branch stub at localhost:3001
+[PID 18124 2021-04-16 19:28:09,118] Initializing customer stub 10 to branch stub at localhost:3010
+[PID 22536 2021-04-16 19:28:09,122] Initializing customer stub 2 to branch stub at localhost:3002
+[PID 18164 2021-04-16 19:28:09,128] Initializing customer stub 4 to branch stub at localhost:3004
+[PID 7568 2021-04-16 19:28:09,145] Initializing customer stub 7 to branch stub at localhost:3007
+[PID 4144 2021-04-16 19:28:09,169] Initializing customer stub 6 to branch stub at localhost:3006
+[PID 12376 2021-04-16 19:28:09,177] Initializing customer stub 5 to branch stub at localhost:3005
+[PID 18192 2021-04-16 19:28:09,200] Initializing customer stub 9 to branch stub at localhost:3009
+[PID 21716 2021-04-16 19:28:09,241] Initializing customer stub 8 to branch stub at localhost:3008
+[PID 18816 2021-04-16 19:28:12,147] Customer ID 1 requesting 1 to Branch 1 interface Query result Transaction_Successful money 400
+[PID 21716 2021-04-16 19:28:12,279] Customer ID 8 requesting 15 to Branch 8 interface Query result Transaction_Successful money 400
